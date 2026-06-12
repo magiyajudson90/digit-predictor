@@ -126,7 +126,7 @@ function useDerivStream(symbol, enabled) {
       if (cancelled) return;
 
       // FIX 3: Use your registered App ID
-      const ws = new WebSocket("wss://ws.binaryws.com/websockets/v3?app_id=33wNVpqD3UFHNHz6LL93z");
+      const ws = new WebSocket("wss://ws.binaryws.com/websockets/v3?app_id=1089");
       wsRef.current = ws;
 
       ws.onopen = () => {
